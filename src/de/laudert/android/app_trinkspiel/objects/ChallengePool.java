@@ -9,5 +9,8 @@ public class ChallengePool {
 
     private ArrayList<Challenge> challenges;
 
+    public ChallengePool() {
+    }
+
 
 }

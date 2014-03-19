@@ -15,7 +15,7 @@
     <TextView
             android:text="Einstellungen"
             android:id="@id/settings"
-            style="@style/game_title.do"
+            style="@style/game_title.subtitle"
             android:layout_width="wrap_content" android:layout_height="wrap_content"/>
     <TextView
             android:layout_width="wrap_content"
@@ -30,9 +30,9 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Anzahl Spieler:"
-            android:id="@id/"
-            android:layout_marginTop="39dp"
-            android:textSize="25dp" android:layout_below="@id/settings" android:layout_alignLeft="@id/settings"/>
+            android:layout_marginTop="32dp"
+            android:textSize="25dp"
+            android:id="@+id/textView4" android:layout_below="@id/settings" android:layout_alignParentLeft="true"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -41,12 +41,13 @@
             android:id="@id/count_players"
             android:maxWidth="10dp"
             android:layout_alignParentEnd="false" android:layout_alignParentStart="false"
-            android:layout_alignBottom="@id/" android:layout_toRightOf="@id/settings"
-            android:layout_marginLeft="90dp" android:numeric="integer" android:layout_marginRight="15dp"/>
+            android:numeric="integer" android:layout_alignTop="@+id/textView4" android:layout_toRightOf="@id/title"
+            android:layout_alignParentRight="true"/>
     <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
               android:textAppearance="?android:attr/textAppearanceMedium" android:text="Anzahl Getränke:"
               android:id="@+id/textView" android:textSize="25dp"
-              android:layout_marginTop="31dp" android:layout_below="@id/" android:layout_alignLeft="@id/"/>
+              android:layout_below="@+id/textView4" android:layout_alignParentLeft="true"
+              android:layout_marginTop="31dp"/>
     <EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:inputType="number"
               android:ems="10" android:id="@id/count_drinks" android:maxWidth="10dp" android:layout_alignParentEnd="false"
               android:layout_alignParentStart="false"

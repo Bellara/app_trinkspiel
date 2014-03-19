@@ -8,5 +8,10 @@
     <item name="title" type="id">title</item>
     <item name="player_count" type="id">player_count</item>
     <item name="count_players" type="id">count_players</item>
-    <item name="picker_count_players" type="id">picker_count_player</item><item name="max_points" type="id">max_points</item><item name="task_quotient" type="id">task_quotient</item><item name="count_drinks" type="id">count_drinks</item><item name="list_players" type="id">list_players</item><item name="next" type="id">next</item>
+    <item name="picker_count_players" type="id">picker_count_player</item>
+    <item name="max_points" type="id">max_points</item>
+    <item name="task_quotient" type="id">task_quotient</item>
+    <item name="count_drinks" type="id">count_drinks</item>
+    <item name="list_players" type="id">list_players</item>
+    <item name="next" type="id">next</item>
 </resources>
