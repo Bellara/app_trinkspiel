@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neues Spiel starten"
+            android:id="@id/start_new_game"
+            android:background="#1ef93a"
+            android:textColor="#000000"
+            android:clickable="true"
+            android:layout_marginTop="60dp" android:layout_below="@id/settings" android:layout_centerHorizontal="true"
+            android:minWidth="350dp" android:textStyle="bold"/>
+    <Button
+            android:text="Einstellungen"
+            android:id="@id/settings"
+            style="@style/game_button"/>
+    <TextView
+            android:text="Trinkspiel - App"
+            android:id="@id/title"
+            style="@style/game_title" android:textSize="50dp"/>
+</RelativeLayout>

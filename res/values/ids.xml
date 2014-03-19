@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="player" type="id">Spieler</item>
+    <item name="add_player" type="id">add_player</item>
+    <item name="playername" type="id">playername</item>
+    <item name="settings" type="id">settings</item>
+    <item name="start_new_game" type="id">start_new_game</item>
+    <item name="title" type="id">title</item>
+    <item name="player_count" type="id">player_count</item>
+    <item name="count_players" type="id">count_players</item>
+    <item name="picker_count_players" type="id">picker_count_player</item><item name="max_points" type="id">max_points</item><item name="task_quotient" type="id">task_quotient</item><item name="count_drinks" type="id">count_drinks</item><item name="list_players" type="id">list_players</item><item name="next" type="id">next</item>
+</resources>
