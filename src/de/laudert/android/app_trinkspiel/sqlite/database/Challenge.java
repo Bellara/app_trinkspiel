@@ -9,12 +9,17 @@ public class Challenge {
     public String title;
     public String text;
     public int points;
+    public int rounds;
 
     public Challenge(long id, String title, String text, int points) {
         this.id = id;
         this.title = title;
         this.text = text;
         this.points = points;
+    }
+
+    public void setCredits(int credits){
+        this.points = credits;
     }
 
     @Override

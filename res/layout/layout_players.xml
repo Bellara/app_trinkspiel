@@ -8,14 +8,14 @@
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Trinkspiel - App"
+            android:text="@string/title"
             android:id="@+id/textView" android:layout_gravity="center_horizontal" style="@style/game_title"
             android:layout_weight="1"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Spieler eintragen"
+            android:text="@string/edit_player"
             android:id="@+id/textView2" style="@style/game_title.subtitle" android:layout_weight="1"
             android:layout_marginTop="18dp"/>
     <ListView

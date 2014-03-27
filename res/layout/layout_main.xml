@@ -18,7 +18,7 @@
             android:id="@id/settings"
             style="@style/game_button"/>
     <TextView
-            android:text="Trinkspiel - App"
+            android:text="@string/title"
             android:id="@id/title"
             style="@style/game_title" android:textSize="50dp"/>
 </RelativeLayout>

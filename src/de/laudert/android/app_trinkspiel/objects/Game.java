@@ -40,4 +40,8 @@ public class Game {
         }
         return false;
     }
+
+    public void nextRound(){
+        round++;
+    }
 }

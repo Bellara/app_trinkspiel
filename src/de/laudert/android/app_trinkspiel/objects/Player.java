@@ -13,7 +13,7 @@ public class Player {
         this.credits = 0;
     }
 
-    public void increaseCredits(){
-        credits++;
+    public void increaseCredits(int addCredits){
+        credits = credits + addCredits;
     }
 }

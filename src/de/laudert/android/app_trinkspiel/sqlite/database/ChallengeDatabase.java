@@ -10,14 +10,14 @@ import java.util.ArrayList;
 /**
  * Created by Maren on 19.03.14.
  */
-public class ChallengeDataSource {
+public class ChallengeDatabase {
 
 //    Database fields
     private SQLiteDatabase database;
     private MySQLiteHelper dbHelper;
     private String[] allColumns = {MySQLiteHelper.COLUMN_ID, MySQLiteHelper.COLUMN_TITLE, MySQLiteHelper.COLUMN_TEXT, MySQLiteHelper.COLUMN_CREDITS};
 
-    public ChallengeDataSource(Context context) {
+    public ChallengeDatabase(Context context) {
         dbHelper = new MySQLiteHelper(context);
     }
 
@@ -32,6 +32,8 @@ public class ChallengeDataSource {
     public Challenge createChallenge(String title, String text, int credits){
         ContentValues contentValues = new ContentValues();
         contentValues.put(MySQLiteHelper.COLUMN_TITLE, title);
+        contentValues.put(MySQLiteHelper.COLUMN_TEXT, text);
+        contentValues.put(MySQLiteHelper.COLUMN_CREDITS, credits);
         long insertID = database.insert(MySQLiteHelper.TABLE_CHALLENGES, null, contentValues);
         Cursor cursor = database.query(MySQLiteHelper.TABLE_CHALLENGES, allColumns, MySQLiteHelper.COLUMN_ID + " = " + insertID, null, null, null, null);
         cursor.moveToFirst();
@@ -48,9 +50,7 @@ public class ChallengeDataSource {
 
     public ArrayList<Challenge> getAllChallenges(){
         ArrayList<Challenge> challenges = new ArrayList<Challenge>();
-
         Cursor cursor = database.query(MySQLiteHelper.TABLE_CHALLENGES, allColumns, null, null, null, null, null);
-
         cursor.moveToFirst();
         while(!cursor.isAfterLast()){
             Challenge challenge = cursorToChallenge(cursor);
