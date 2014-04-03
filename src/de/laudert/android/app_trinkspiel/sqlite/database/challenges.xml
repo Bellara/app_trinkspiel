@@ -109,15 +109,15 @@
         5 Runden lang darf keiner trinken. Sind diese vorbei, müssen alle Getränke, die vor einem stehen, geext werden.
     </challenge>
 
-    <challenge title="Lungen-Transplatation" credits="0" action="timer" timer="30">
-        Ihr müsst 30 Minuten ohne Rauchen auskommen.
+    <challenge title="Lungen-Transplatation" credits="0" action="timer" timer="20">
+        Ihr müsst 20 Minuten ohne Rauchen auskommen.
     </challenge>
 
-    <challenge title="Nachschubprobleme" credits="1">
+    <challenge title="Nachschubprobleme" credits="1" action="round" rounds="3">
         Du kannst für ein Getränk ein beliebiges anderes zur verfügung stehendes Getränk ersetzen.
     </challenge>
 
-    <challenge title="Killing Spree" credits="3">
+    <challenge title="Killing Spree" credits="3"  action="round" rounds="3">
         Jedes Mal, wenn ihr ein Bier trinken müsst, wird zusätzlich ein Killer getrunken.
     </challenge>
 
@@ -186,7 +186,7 @@
     </challenge>
 
     <challenge title="Börsen-Crash" credits="0">
-        Jeder, der mehr 2 oder mehr Getränke vor sich stehen hat, muss so lange Getränke exen, bis er nur noch eins vor sich stehen hat.
+        Jeder, der 2 oder mehr Getränke vor sich stehen hat, muss so lange Getränke exen, bis er nur noch eins vor sich stehen hat.
     </challenge>
 
     <challenge title="Granate" credits="1" action="round" rounds="3">
@@ -202,7 +202,7 @@
         Klemmt euch alle einen Kronkorken vor ein Auge für eine Runde. Wer es verliert, gehört zum gewöhnlichem Pöbel und wird mit einem Killer bestraft.
     </challenge>
 
-    <challenge title="Scheine Hund" credits="2">
+    <challenge title="Schweine Hund" credits="2">
         Wenn du willst, kansnt du einen Killer trinken. Hast du dies getan, kannst du würfeln. Jeder andere Spieler muss die Augenzahl an Fingern Bier trinken.
     </challenge>
 
@@ -211,7 +211,7 @@
     </challenge>
 
     <challenge title="Super-GAU" credits="3">
-        ALLE Mitspieler exen ALLE Getränke, die sie vor sich stehen haben.
+        ALLE Mitspieler exen ALLE Getränke, die sie vor sich stehen haben. Danach werden diese wieder aufgefüllt.
     </challenge>
 
     <challenge title="Taktlos" credits="1">
