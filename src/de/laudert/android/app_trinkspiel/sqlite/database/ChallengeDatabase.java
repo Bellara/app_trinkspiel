@@ -62,6 +62,6 @@ public class ChallengeDatabase {
     }
 
     private Challenge cursorToChallenge(Cursor cursor){
-        return new Challenge(cursor.getLong(0), cursor.getString(1), cursor.getString(2), cursor.getInt(3));
+        return new Challenge(cursor.getLong(0), cursor.getString(1), cursor.getString(2), cursor.getInt(3), cursor.getInt(4));
     }
 }

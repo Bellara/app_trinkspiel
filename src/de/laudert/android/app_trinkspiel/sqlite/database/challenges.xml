@@ -224,7 +224,7 @@
     </challenge>
 
     <challenge title="Alter Falter" credits="2" action="dice">
-        Teile dein Alter durch (3+{X}). Das Ergebnis trinkst du an Fingern Bier.
+        Teile dein Alter durch (3+{x}). Das Ergebnis trinkst du an Fingern Bier.
     </challenge>
 
     <challenge title="Patent" credits="1" action="round" rounds="3">
